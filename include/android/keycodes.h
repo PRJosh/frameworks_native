@@ -722,7 +722,9 @@ enum {
     AKEYCODE_NAVIGATE_PREVIOUS = 260,
     AKEYCODE_NAVIGATE_NEXT   = 261,
     AKEYCODE_NAVIGATE_IN     = 262,
-    AKEYCODE_NAVIGATE_OUT    = 263
+    AKEYCODE_NAVIGATE_OUT    = 263,
+    /** Put device to sleep unless a wakelock is held. */
+    AKEYCODE_SOFT_SLEEP = 276
 
     // NOTE: If you add a new keycode here you must also add it to several other files.
     //       Refer to frameworks/base/core/java/android/view/KeyEvent.java for the full list.
